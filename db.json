@@ -1,0 +1,171 @@
+{
+    "logs": [
+        {
+            "text": "Integration \"googleCalendar\" status toggled to true", 
+            "type": "system", 
+            "id": "l-1781165290367", 
+            "time": "Just now"
+        }, 
+        {
+            "text": "Integration \"googleCalendar\" status toggled to false", 
+            "type": "system", 
+            "id": "l-1781165287459", 
+            "time": "Just now"
+        }, 
+        {
+            "text": "Integration \"outlookCalendar\" status toggled to true", 
+            "type": "system", 
+            "id": "l-1781165286819", 
+            "time": "Just now"
+        }, 
+        {
+            "text": "Sarah Jenkins scheduled a 15m Quick Catchup", 
+            "type": "schedule", 
+            "id": "l-1", 
+            "time": "10 mins ago"
+        }, 
+        {
+            "text": "Diana Prince scheduled a 30m Discovery Call", 
+            "type": "schedule", 
+            "id": "l-2", 
+            "time": "1 hr ago"
+        }, 
+        {
+            "text": "Integration with Zoom successfully connected", 
+            "type": "system", 
+            "id": "l-3", 
+            "time": "3 hrs ago"
+        }, 
+        {
+            "text": "New meeting type \"45m Portfolio Showcase\" created", 
+            "type": "create", 
+            "id": "l-4", 
+            "time": "5 hrs ago"
+        }
+    ], 
+    "meetingTypes": [
+        {
+            "description": "Quick sync to align on project updates, resolve blockers, and set weekly goals.", 
+            "title": "15m Quick Catchup", 
+            "color": "indigo", 
+            "active": true, 
+            "location": "Google Meet", 
+            "duration": 15, 
+            "id": "mt-1"
+        }, 
+        {
+            "description": "Introductory call to explore client requirements, project scope, and design choices.", 
+            "title": "30m Discovery Call", 
+            "color": "purple", 
+            "active": true, 
+            "location": "Zoom", 
+            "duration": 30, 
+            "id": "mt-2"
+        }, 
+        {
+            "description": "Deep dive technical architecture review, code audit, and system design recommendations.", 
+            "title": "60m Tech Consultation", 
+            "color": "emerald", 
+            "active": true, 
+            "location": "Google Meet", 
+            "duration": 60, 
+            "id": "mt-3"
+        }, 
+        {
+            "description": "Presentation of past SaaS designs, visual interactions, and code walkthroughs.", 
+            "title": "45m Portfolio Showcase", 
+            "color": "orange", 
+            "active": true, 
+            "location": "Phone Call", 
+            "duration": 45, 
+            "id": "mt-4"
+        }
+    ], 
+    "integrations": {
+        "outlookCalendar": true, 
+        "googleCalendar": true, 
+        "zoomMeetings": true
+    }, 
+    "bookings": [
+        {
+            "title": "30m Discovery Call", 
+            "notes": "Interested in a new SaaS marketing page redesign with dynamic animations.", 
+            "duration": 30, 
+            "clientEmail": "alex@designflow.io", 
+            "time": "10:00", 
+            "date": "2026-06-09", 
+            "meetingTypeId": "mt-2", 
+            "id": "b-1", 
+            "clientName": "Alex Rivers"
+        }, 
+        {
+            "title": "60m Tech Consultation", 
+            "notes": "Need to review system scaling guidelines and Database indexing strategies.", 
+            "duration": 60, 
+            "clientEmail": "m.vance@techstack.net", 
+            "time": "14:00", 
+            "date": "2026-06-10", 
+            "meetingTypeId": "mt-3", 
+            "id": "b-2", 
+            "clientName": "Marcus Vance"
+        }, 
+        {
+            "title": "15m Quick Catchup", 
+            "notes": "Checking in on the visual mockup layout adjustments.", 
+            "duration": 15, 
+            "clientEmail": "sarah@vertex.com", 
+            "time": "11:00", 
+            "date": "2026-06-11", 
+            "meetingTypeId": "mt-1", 
+            "id": "b-3", 
+            "clientName": "Sarah Jenkins"
+        }, 
+        {
+            "title": "30m Discovery Call", 
+            "notes": "Explore scheduling API integrations and webhook callbacks.", 
+            "duration": 30, 
+            "clientEmail": "diana@themiscera.co", 
+            "time": "15:30", 
+            "date": "2026-06-11", 
+            "meetingTypeId": "mt-2", 
+            "id": "b-4", 
+            "clientName": "Diana Prince"
+        }, 
+        {
+            "title": "15m Quick Catchup", 
+            "notes": "Project kickoff sync for the next sprint delivery.", 
+            "duration": 15, 
+            "clientEmail": "ethan@impossible.org", 
+            "time": "09:30", 
+            "date": "2026-06-12", 
+            "meetingTypeId": "mt-1", 
+            "id": "b-5", 
+            "clientName": "Ethan Hunt"
+        }, 
+        {
+            "title": "45m Portfolio Showcase", 
+            "notes": "Showcasing deep-mode widgets and mobile viewport styling structures.", 
+            "duration": 45, 
+            "clientEmail": "bruce@waynecorp.com", 
+            "time": "16:00", 
+            "date": "2026-06-13", 
+            "meetingTypeId": "mt-4", 
+            "id": "b-6", 
+            "clientName": "Bruce Wayne"
+        }
+    ], 
+    "timezone": "Asia/Kolkata", 
+    "availability": {
+        "start": "09:00", 
+        "end": "17:00", 
+        "days": [
+            1, 
+            2, 
+            3, 
+            4, 
+            5
+        ]
+    }, 
+    "isAuthenticated": true, 
+    "view": "dashboard"
+}

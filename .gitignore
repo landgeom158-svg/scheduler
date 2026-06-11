@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Database
+# db.json contains local state and edits. You can keep or ignore it depending on your preference.
+# If you want a clean slate on clone, you can ignore it or leave it in to preserve default mocks.
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.db
